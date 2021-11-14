@@ -82,7 +82,7 @@ def edit_menu() :
                     makanan.pop(akses)
                     makanan.update({ganti:harga})
                     print("="*57)
-                    print("MENU MAKANAN TELAH DIUPDATE")
+                    print("MENU TELAH DIUPDATE")
                     print("="*57)
                 else :
                     print("="*57)
@@ -103,7 +103,7 @@ def edit_menu() :
                     minuman.pop(akses)
                     minuman.update({ganti:harga})
                     print("="*57)
-                    print("MENU MAKANAN TELAH DIUPDATE")
+                    print("MENU TELAH DIUPDATE")
                     data["Drink"] = minuman
                 else :
                     print("="*57)
@@ -151,7 +151,7 @@ def delete_menu ():
             print("="*57)
             if hapus in minuman.keys() :
                 del minuman[hapus]
-                print("DATA TELAH DIHAPUS")
+                print("MENU TELAH DIHAPUS")
             else :
                 print("Minuman Tidak Ada Dalam Menu !")
         else :

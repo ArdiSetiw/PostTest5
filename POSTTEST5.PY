@@ -37,7 +37,7 @@ def add_menu () :
                 print("MENU TELAH DITAMBAH")
             except ValueError :
                 print("="*57)
-                print("Harga Harus Berbentuk Angka Desimal !")
+                print("Harga Harus Berbentuk Bilangan Bulat !")
         elif choice == "2" :
             try :
                 minuman = str(input("Tambah Minuman = "))
@@ -47,7 +47,7 @@ def add_menu () :
                 print("MENU TELAH DITAMBAH")
             except ValueError :
                 print("="*57)
-                print("Harga Harus Berbentuk Angka Desimal !")
+                print("Harga Harus Berbentuk Bilangan Bulat !")
         else : 
             print("Mohon Pilih Dengan Angka Yang Tertera")
         print("="*57)
@@ -90,7 +90,7 @@ def edit_menu() :
                     print("="*57)
             except ValueError :
                 print("="*57)
-                print("Harga Harus Berbentuk Angka Desimal !")
+                print("Harga Harus Berbentuk Bilangan Bulat !")
                 print("="*57)
         elif choice == "2" :
             minuman = data["Drink"]
@@ -111,7 +111,7 @@ def edit_menu() :
                     print("="*57)
             except ValueError :
                 print("="*57)
-                print("Harga Harus Berbentuk Angka Desimal !")
+                print("Harga Harus Berbentuk Bilangan Bulat !")
                 print("="*57)
         else :
             print("Mohon Pilih Dengan Angka Yang Tertera")
